@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 
 // const uri = "mongodb+srv://biswajitProject:i9uOw4eoP6rCyud4@cluster0.guqb5eu.mongodb.net/foodzosh";
 // const uri = "mongodb://127.0.0.1:27017/foodzosh";
-const uri ="mongodb+srv://ashis2002:Ashis1234@cluster0.ozjva7d.mongodb.net/"
+const uri ="mongodb+srv://ashis2002:Ashis1234@cluster0.ozjva7d.mongodb.net/foodzosh"
 const client = new MongoClient(uri, {
     serverApi: {
       version: ServerApiVersion.v1,
